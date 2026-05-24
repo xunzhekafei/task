@@ -1,0 +1,15 @@
+info:
+  version: 1.0.7
+  description: Basic routing configuration
+
+ueRoutingInfo:
+  default:
+    members:
+      - imsi-208930000000001
+    topology:
+      - A: gNB1
+        B: UPF
+
+routeProfile: {}
+
+pfdDataForApp: []

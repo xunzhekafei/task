@@ -1,1 +1,7 @@
-﻿手动构建核心网，需要先创建网络并启动mongodb，然后再按次序启动各个网元，结束后要手动停止并删除容器。目前只启动了NRF。
+# 手动启动核心网
+ ## 1.构建网络，启动mongodb
+ docker run -d --name manual-db --network free5gc-manual-net mongo:4.4
+ ## 2.按照顺序依次启动各个网元
+ 顺序为：NRF（依赖mongodb），UDR（依赖mongodb、NRF），AUSF（依赖NRF），UDM（依赖mongodb、NRF、UDR），PCF（依赖NRF、UDR），NSSF（依赖NRF），NEF（依赖mongodb、NRF），AMF（依赖NRF），SMF（依赖NRF），UPF（依赖SMF）
+ 
+ 具体启动命令以及配置文件情况详见NFs文件夹

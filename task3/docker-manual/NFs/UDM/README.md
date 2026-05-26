@@ -1,4 +1,5 @@
 # UDM的配置见yaml文件，使用start_UDM.sh启动UDM，日志如下
+```bash
  2026-05-24T05:42:22.340890553Z [INFO][UDM][Main] UDM version:
         free5GC version: v4.2.1
         build time:      2026-03-04T07:38:48Z

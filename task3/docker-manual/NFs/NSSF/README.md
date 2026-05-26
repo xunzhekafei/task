@@ -1,4 +1,5 @@
 # NSSF的配置见yaml文件，使用start_NSSF.sh文件启动NSSF，日志如下
+```bash
 2026-05-24T06:19:41.537868856Z [INFO][NSSF][Main] NSSF version:
         free5GC version: v4.2.1
         build time:      2026-03-04T07:37:10Z

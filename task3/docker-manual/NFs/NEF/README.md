@@ -1,4 +1,5 @@
 # NEF的配置见yaml文件，使用start_NEF.sh启动NEF，日志如下
+```bash
 2026-05-24T06:26:34.892284834Z [INFO][NEF][Main] NEF version:
         free5GC version: v4.2.1
         build time:      2026-03-04T07:42:09Z

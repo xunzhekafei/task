@@ -1,4 +1,5 @@
 # AUSF配置见yaml文件，使用start_AUSF.sh启动AUSF，日志如下
+```bash
  2026-05-24T05:42:21.914115238Z [INFO][AUSF][Main] AUSF version:
         free5GC version: v4.2.1
         build time:      2026-03-04T07:36:04Z

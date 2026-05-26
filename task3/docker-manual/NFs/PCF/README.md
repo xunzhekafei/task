@@ -1,4 +1,5 @@
 # PCF的配置见yaml文件，使用start_PCF.sh启动pcf，日志如下
+```bash
 2026-05-24T05:42:22.884189748Z [INFO][PCF][Main] pcf
 2026-05-24T05:42:22.887131836Z [INFO][PCF][Main] PCF version:
         free5GC version: v4.2.1

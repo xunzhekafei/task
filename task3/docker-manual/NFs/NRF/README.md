@@ -1,6 +1,5 @@
-# NRF的配置见yaml文件，启动mongodb后使用start_NRF.sh启动NRF
- 网元全部启动后的NRF日志如下：
- 
+# NRF的配置见yaml文件，启动mongodb后使用start_NRF.sh启动NRF,日志如下
+ ```bash
  liuyutong@free5gc:~/free5gc-manual$ docker logs manual-nrf
 2026-05-24T05:42:20.838279302Z [INFO][NRF][Main] NRF version:
         free5GC version: v4.2.2-13-g5a3b215

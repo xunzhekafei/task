@@ -1,4 +1,5 @@
 # AMF的配置见yaml文件，使用start_AMF.sh启动AMF，日志如下
+```bash
 2026-05-24T05:42:23.366622204Z [INFO][AMF][Main] AMF version:
         free5GC version: v4.2.1
         build time:      2026-03-04T07:35:31Z

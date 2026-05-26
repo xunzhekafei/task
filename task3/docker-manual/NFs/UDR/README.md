@@ -1,4 +1,5 @@
 # UDR的配置见yaml文件，使用start_UDR.sh启动UDR，日志如下
+```bash
  2026-05-24T05:42:21.372409005Z [INFO][UDR][Main] UDR version:
         free5GC version: v4.2.1
         build time:      2026-03-04T07:39:19Z
